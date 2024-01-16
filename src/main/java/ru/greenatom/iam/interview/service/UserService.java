@@ -6,5 +6,7 @@ import java.util.List;
 
 public interface UserService {
 
+    boolean logon(String login, String password);
 
+    boolean addRole(String userId, List<String> roleNames);
 }
