@@ -8,6 +8,9 @@ class InterviewApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println(DigestUtils.sha256Hex("pass"));
+		System.out.println(DigestUtils.sha256Hex("pass"));
+		System.out.println(DigestUtils.sha256Hex("pass"));
 	}
 
 }
