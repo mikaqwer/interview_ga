@@ -4,7 +4,7 @@ import ru.greenatom.iam.interview.entity.Role;
 
 import java.util.List;
 
-public interface UserService {
+public interface InterviewService {
 
     boolean logon(String login, String password);
 
